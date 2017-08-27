@@ -499,20 +499,16 @@ table tbody tr:hover td {
   float: left;
 }
 .multi-column-list-2 {
-  -moz-column-count: 2;
-       column-count: 2;
+  column-count: 2;
 }
 .multi-column-list-3 {
-  -moz-column-count: 3;
-       column-count: 3;
+  column-count: 3;
 }
 .multi-column-list-4 {
-  -moz-column-count: 4;
-       column-count: 4;
+  column-count: 4;
 }
 .multi-column-list-5 {
-  -moz-column-count: 5;
-       column-count: 5;
+  column-count: 5;
 }
 .side-by-side-children {
   display: -ms-flexbox;
@@ -978,7 +974,8 @@ table tbody tr:hover td {
 }
 .hardcover_front li:first-child {
   background-color: #eee;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 .hardcover_front li:last-child {
   background: #fffbec;
@@ -1238,7 +1235,8 @@ table tbody tr:hover td {
   bottom: 0;
   right: 0;
   overflow: hidden;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 .coverDesign::after {
   background-image: linear-gradient(-135deg, rgba(255,255,255,0.45) 0, transparent 100%);
@@ -1288,7 +1286,8 @@ table tbody tr:hover td {
   letter-spacing: 0.15em;
   text-align: center;
   transform: rotateZ(45deg) translateZ(1px);
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   z-index: 10;
 }
 .ribbon::before,
