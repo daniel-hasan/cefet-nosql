@@ -4,6 +4,8 @@
 
 # Introdução a NoSQL
 
+Slides: Prof. Flávio Coutinho
+
 ---
 # Roteiro
 
@@ -144,13 +146,13 @@
 - Mudança **ocorrida no final dos 90s** e início dos 00s
 - Aplicações se comunicam usando HTTP
   - **_Text over HTTP_**
-  - Antes, usavam outras formas de <abbr title="Remote Procedure Call">RPC</abbr>
+  <!--- Antes, usavam outras formas de <abbr title="Remote Procedure Call">RPC</abbr>-->
 - Trouxe mais **flexibilidade para a estrutura dos dados** sendo trocados
   - SQL &#10137; relações
   - XML, JSON &#10137; registros e listas aninhadas
 - Integrar sistemas via serviços possibilita:
   - **Desacoplar** armazenamento de dados da disponibilização dos dados
-  - **Não usar o banco para integridade, lógica, segurança**
+  <!-- - **Não usar o banco para integridade, lógica, segurança** -->
   - Trocar o tipo do banco para outro (_e.g._, não relacional)
 
 ---
@@ -179,7 +181,7 @@
   - Abordagem **vertical**: servidores mais potentes, mais processadores, discos e memória
     - Preços aumentam mais rapidamente quanto mais alto é a demanda
     - Limites reais (físicos)
-- Abordagem **horizontal**: dividir os dados em diversos computadores (_culsters_) mais simples
+- Abordagem **horizontal**: dividir os dados em diversos computadores (_clusters_) mais simples
     - **Mais barato**, porque pode-se usar _commodity hardware_
     - Mais sucetível a erro na individualidade, porém muito **mais confiável** em conjunto
     - Virtualmente **sem limites de expansão**
@@ -194,7 +196,7 @@
     - É  possível separar servidores para conjuntos diferentes dos dados (técnica de _sharding_)
       - A aplicação precisa saber em qual servidor cada conjunto de dados está
       - Perde-se: consultas, integridade referencial, transações entre _shards_
-      - Problema de licensiamento: os bancos relacionais tipicamente vendiam a licença para apenas 1 servidor
+      - Problema de licenciamento: os bancos relacionais tipicamente vendiam a licença para apenas 1 servidor
 
 ---
 ## Google e Amazon
@@ -285,7 +287,7 @@ valores</p>
   - Não é possível colocar uma lista de valores ou uma tupla dentro da outra
 - O modelo relacional é baseado na álgebra relacional em que **todas as
   operações resultam em uma tupla ou relação**
-- Os modelos orientados a agregados partem com esse princípio
+- Os modelos orientados a agregados são diferentes
 
 ---
 ## Um agregado
@@ -460,7 +462,7 @@ relacionados que queremos **tratar de forma unitária**</p>
 # Mais sobre modelos de dados
 
 ---
-# Principais **modelos de Dados NoSQL**
+# Principais **Modelos de Dados NoSQL**
 
 <figure style="position: relative;width:100%;height:260px;">
   <img src="../../images/model-flavors.png" class="bullet bullet-no-anim" style="position:absolute;top:0;left:0;">

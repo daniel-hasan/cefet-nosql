@@ -4,30 +4,32 @@
 
 # NoSQL
 
-_Professor:_ [Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)
+_Professor:_ [Daniel Hasan Dalip - hasan@decom.cefetmg.br](mailto:hasan@decom.cefetmg.br)
+
+_Slides:_ Prof. Flávio Coutinho
 
 ---
 # Aulas
-
-- Aula 1 (01/08/2016):
-  - 18:50 - 20:30: [Introdução a NoSQL](classes/intro/) (31/08/2015)
-  - 20:50 - 22:30: [Teoria (Distribuição, CAP, _Map-Reduce_)](classes/theory/) (1ª parte)
-- Aula 2: (08/08/2016)
-  - 18:50 - 20:30: Teoria (Distribuição, CAP, _Map-Reduce_) ([2ª parte](classes/theory/#25))
-  - 20:50 - 22:30: [_Document Stores_](classes/document/) ([Prática 1 MongoDB][activity-mongodb1])
-- Aula 3: (22/08/2016)
-  - 18:50 - 20:30: [_Key-Value Stores_](classes/keyvalue/)
-  - 20:50 - 22:30: _Document Stores_ ([restim](classes/document/#47)) ([Prática 2 MongoDB][activity-mongodb2])
-- Aula 4: (29/08/2016)
-  - 18:50 - 20:30: [_Column-Family_](classes/columnfamily/)
+- Aula 1 (30/08/2017): [Introdução a NoSQL](classes/intro/)
+- Aula 2 (06/09/2017):
+  - 18:50 - 20:30: [Teoria (Distribuição, CAP, _Map-Reduce_) (1ª parte)](classes/theory/)
+  - 20:50 - 22:30: [Teoria (Distribuição, CAP, _Map-Reduce_) (2ª parte) ](classes/theory/#25)
+- Aula 3: (13/09/2017)
+  - 18:50 - 20:30: [_Document Stores_](classes/document/)
+  - 20:50 - 22:30: [Prática 1 MongoDB][activity-mongodb1]
+- Aula 4: (20/09/2017)
+  - 18:50 - 20:30: _Document Stores_([restim](classes/document/#47))
+  - 20:50 - 22:30:  [Prática 2 MongoDB][activity-mongodb2]
+- Aula 5: (27/09/2017)
+  - 18:50 - 20:30: Dúvidas sobre as práticas e [Seminário][seminar]
   - 20:50 - 22:30: [Seminário][seminar]
-- Aula 5: Prova (05/09/2016)
 
 
-[seminar]: https://github.com/fegemo/cefet-nosql/tree/master/assignments/seminar/README.md
-[activity-mongodb1]: https://github.com/fegemo/cefet-nosql/tree/master/assignments/mongodb/README.md
-[activity-mongodb2]: https://github.com/fegemo/cefet-nosql/tree/master/assignments/mongodb2/README.md
-[activity-neo4j]: https://github.com/fegemo/cefet-nosql/tree/master/assignments/neo4j/README.md
+
+[seminar]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/seminar/README.md
+[activity-mongodb1]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/mongodb/README.md
+[activity-mongodb2]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/mongodb2/README.md
+[activity-neo4j]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/neo4j/README.md
 
 ---
 # Objetivos
@@ -74,13 +76,16 @@ _Professor:_ [Flávio Coutinho](mailto:coutinho@decom.cefetmg.br)
 - **Editora**	 Addison-Wesley Professional, 2012
 
 ---
-# Atividades Avaliativas
+# Datas Importantes
 
-- Atividades Práticas (40 pontos, 08 e 22/08/2015)
-- [Seminário][seminar] (30 pontos, 29/08/2016)
-- Atividade Final (30 pontos)
-  - Prova (05/09/2016) ou
-  - [Trabalho Prático][tp] (19/09/2016)
+- Atividades Práticas (25 pontos cada, 13 e 20/09/2017)
+- [Seminário][seminar] (40 pontos, 27/09/2017)
+  - **ordem dos trabalhos/tema e grupo**: Devem ser escolhidos com antecedência [por meio deste link](https://goo.gl/5Q4idT)
+    - A escolha deve ser feita **até 20/09**. Caso não seja feito o aluno perderá 15% dos pontos
+- 5 consultas utilizando [MongoDB e MapReduce](mapreduce) (10 pontos, entrega até 06/10)
+  - Entregar em um PDF, a consulta e o propósito da mesma. Plágio não será tolerado e, caso identificado, o aluno (**que forneceu e que utilizou**) terá o exercício **zerado**.
 
-[seminar]: https://github.com/fegemo/cefet-nosql/tree/master/assignments/seminar/README.md
-[tp]: https://github.com/fegemo/cefet-nosql/tree/master/assignments/tp/README.md
+
+[seminar]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/seminar/README.md
+[tp]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/tp/README.md
+[mapreduce]: https://docs.mongodb.com/manual/core/map-reduce/

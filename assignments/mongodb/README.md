@@ -35,7 +35,9 @@ Nos laboratórios do CEFET, é preciso:
 
 Você deve entregar, no Moodle, um documento `.pdf` contendo os entregáveis de
 cada um dos exercícios abaixo. Você pode usar um editor de texto como o Word ou
-Writer. **Não copie seu exercício de outra pessoa!!**
+Writer.
+
+**Não copie seu exercício de outra pessoa!!** Plágio não será tolerado e, caso identificado, o aluno (**quem forneceu e quem utilizou**) terá toda a prática **zerada**.
 
 ---
 ## Exercício 1: **Importando um _dataset_**
@@ -70,7 +72,7 @@ Veja um dos documentos que forma o _dataset_ que vamos usar:
 Para importar os dados, vamos usar o utilitário `mongoimport.exe`, que vem
 junto com a instalação do MongoDB (na pasta `bin/`).
 
-- **Passo 1**: baixar o _dataset_: https://fegemo.github.io/cefet-nosql/attachments/restaurants-dataset.json (11 MB)
+- **Passo 1**: baixar o _dataset_: https://daniel-hasan.github.io/cefet-nosql/attachments/restaurants-dataset.json (11 MB)
 - **Passo 2**: importar o _dataset_:
   - Vamos usar um banco de dados chamado `cefet-nosql`
   - Vamos importar os dados para uma coleção chamada `restaurants`

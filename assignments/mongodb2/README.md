@@ -36,7 +36,7 @@ Você deve entregar, no Moodle, um documento `.pdf` contendo os entregáveis de
 cada um dos exercícios abaixo. Você pode usar um editor de texto como o Word ou
 Writer.
 
-
+**Não copie seu exercício de outra pessoa!!** Plágio não será tolerado e, caso identificado, o grupo (**quem forneceu e quem utilizou**) terá toda a prática **zerada**.
 ---
 ## Exercício 1: Índices
 
@@ -181,7 +181,7 @@ Valendo 15% extra, tente fazer também as seguintes operações:
     -->
 1. A média das pontuações (_score_) de todos os restaurantes do
   bairro "Brooklyn".
-  - Dica: use [_mapReduce_ do MongoDB][aggregations]
+  - Dica: use [_mapReduce_ do MongoDB][mapreduce]
 
     <!--
     db.restaurants.mapReduce(
@@ -219,3 +219,4 @@ Valendo 15% extra, tente fazer também as seguintes operações:
 [near]: https://docs.mongodb.com/manual/reference/operator/query/near/#op._S_nearM
 [aggregations]: https://docs.mongodb.com/manual/aggregation/
 [elemMatch]: https://docs.mongodb.com/manual/reference/operator/query/elemMatch/
+[mapreduce]: https://docs.mongodb.com/manual/core/map-reduce/

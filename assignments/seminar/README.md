@@ -1,15 +1,19 @@
 # Seminário de NoSQL
 
-Você e seu grupo (máximo 4 pessoas) devem escolher um tema e uma fonte
-bibliográfica e apresentarão um curto seminário no nosso último dia de aula
-(primeiro horário).
+Você e seu grupo (máximo 3 pessoas) devem escolher um tema e uma fonte
+bibliográfica e apresentarão um curto seminário no nosso último dia de aula.
+
+
 
 ## Instruções Gerais
 
+
 - O trabalho deve ser feito inteiramente pelo aluno ou pelo grupo
 - As apresentações dos trabalhos serão de 10 a 15 minutos, todas na mesma data
+- **ordem dos trabalhos/tema e grupo**: Devem ser escolhidos com antecedência [por meio deste link](https://goo.gl/5Q4idT)
+  - A escolha deve ser feita até 18/09. Caso não seja feito o aluno/grupo perderá 15% dos pontos
 - Se optar por apresentar usando _slides_, sugiro limitar a 10-15 _slides_
-- A ordem de apresentação será definida no dia
+
 
 ## Temas Disponíveis
 
