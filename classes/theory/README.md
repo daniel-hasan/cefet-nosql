@@ -3,8 +3,8 @@
 ---
 ## Roteiro
 
-1. **_Views_ Materializadas**
-1. **Modelando para Acesso aos Dados**
+1. **_Views_ Materializadas** (capítulo 3)
+1. **Modelando para Acesso aos Dados** (capítulo 3)
 1. Modelos de **Distribuição** (capítulo 4)
 1. Consistência e **Teorema CAP** (capítulo 5)
 1. Modelos de Processamento e **_MapReduce_** (capítulo 7)
@@ -62,7 +62,7 @@
     - Boa alternativa quando **atualização dos dados não é de importância
       crítica**
 
----
+<!---
 ## _Views_ Materializadas: Abordagens (2)
 
 - As _views_ podem ser criadas fora do banco de dados
@@ -73,7 +73,7 @@
   - Nós provemos qual a computação para gerar e o banco a executa
     apenas quando necessário **(_Map-Reduce_ Incremental)**
 
----
+--->
 <!--
   backdrop: chapter
 -->
@@ -129,7 +129,8 @@
 - Com referências podemos encontrar pedidos independentemente dos clientes
 - Em bancos de documentos, como eles permitem consulta por atributo (campo),
   é fácil (e barato) consultar e.g. "todos os pedidos que incluem o produtos X"
-
+- Desvantagem: sempre que um cliente tem mais um pedido, temos que adicionar esta
+referencia dentro do cliente
 ---
 ## Modelando: **_column-family_**
 
@@ -386,10 +387,11 @@
 ## _Sharding_: o momento certo
 
 - Alguns bancos são destinados a sofrerem _sharding_ desde o início
-- Outros permitem usuários começaram com um único nó e depois distribuir
+<!--- Outros permitem usuários começaram com um único nó e depois distribuir-->
 - Contudo, fazer o _sharding_ muito tardio pode causar problemas:
   - Especialmente quando feito em produção
-  - O momento certo deve ser considerado
+
+
 
 ---
 # Replicação
@@ -580,8 +582,11 @@ _"Bancos relacionais são ACID, logo não preciso me preocupar com consistência
 ---
 ## Consistência de Leitura (4)
 
-- Eventualmente, os nós terão propagado totalmente as atualizações
-  - A esta característica damos o nome de **eventualmente consistente**
+- No final, os nós terão propagado totalmente as atualizações
+  - A esta característica damos o nome de _eventually consistent_
+    - significa que, **no final**, o modelo estará consistente (_eventually_ traduzir para
+      **eventualmente** é um **falso cognato**)
+
 - A configuração de consistência não é "global" na aplicação
   - Cada tipo de requisição pode ser configurado da melhor forma
     (_strong/weak_)
@@ -680,7 +685,7 @@ _"Bancos relacionais são ACID, logo não preciso me preocupar com consistência
 
 [scatter-gather]: http://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html
 
---->
+-->
 ---
 ## **_Map-Reduce_**
 
@@ -749,15 +754,15 @@ _"Bancos relacionais são ACID, logo não preciso me preocupar com consistência
 - Este é o cenário exato em que devemos recorrer ao _Map-Reduce_
 
 ---
-## **_Map-Reduce_** Básico (2)
+## **_Map-Reduce_** Básico (2) - Função Map
 
 ![right](../../images/map-reduce-example1.png)
 
 - O **`map`** é uma função que:
   - Recebe um único agregado
   - Produz um punhado de _key-value pairs_
-- Neste caso, _key-value pairs_ contendo o ID do produto (chave) e um objeto
-  contendo preço e quantidade (valor)
+<!--- Neste caso, _key-value pairs_ contendo o ID do produto (chave) e um objeto
+  contendo preço e quantidade (valor)-->
 
 ---
 ## **_Map-Reduce_** Básico (3)
