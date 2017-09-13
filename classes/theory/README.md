@@ -509,8 +509,8 @@ _"Bancos relacionais são ACID, logo não preciso me preocupar com consistência
       banco relacional
   - Vários servidores
     - Todas as pessoas podem efetivamente adquirir a reserva
-  - Há uma diferença entre uma **<u>transação de negócio</u> e uma <u>transação
-    técnica</u>**
+<!--  - Há uma diferença entre uma **<u>transação de negócio</u> e uma <u>transação
+    técnica</u>**-->
 
 ---
 ## Consistência de Escrita
@@ -668,7 +668,7 @@ _"Bancos relacionais são ACID, logo não preciso me preocupar com consistência
 - Devemos <u>preservar a localidade</u> da computação
   - Isto é, processar dados no mesmo nó onde estão armazenados
 
----
+<!---
 ## Padrão: **_Scatter-Gather_**
 
 - Podemos usar um padrão de integração de aplicações chamado
@@ -680,6 +680,7 @@ _"Bancos relacionais são ACID, logo não preciso me preocupar com consistência
 
 [scatter-gather]: http://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html
 
+--->
 ---
 ## **_Map-Reduce_**
 
