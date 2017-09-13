@@ -120,7 +120,7 @@ Insira o seguinte documento na coleção `restaurants`:
 
 ### Entrega
 
-O comando que foi executado para inserir o documento **e também** um comando
+Um **PDF** pelo moodle. Para cada consulta, o comando que foi executado para inserir o documento **e também** um comando
 e seu resultado (_screenshot_ ou texto _output_) para mostrar quantos
 documentos agora fazem parte da coleção `restaurants`.
 
@@ -130,11 +130,16 @@ documentos agora fazem parte da coleção `restaurants`.
 Você deve fazer as seguintes consultas na coleção `restaurants`:
 
 1. Listar todos os restaurantes
+<!-- db.restaurants.find({}) -->
 1. Encontrar todos os restaurantes no bairro (`borough`) `"Manhattan"`
+<!-- db.restaurants.find({borough:"Manhattan"}) -->
 1. Encontrar todos os restaurantes com CEP (`zipcode`, dentro de `address`) `"10022"`
+<!-- db.restaurants.find({"address.zipcode":"10022"}).count() -->
 1. Encontrar todos os restaurantes que possuem alguma nota (`grade`, dentro de `grades`) `"B"`
+<!--db.restaurants.find({"grades.grade":"B"}) -->
 1. Mesmo que anterior, porém mostrar apenas o nome do restaurante (`"name"`)
-
+<!-- db.restaurants.find({"grades.grade":"B"},
+                    {"name":1,"_id":0}) -->
 ### Entrega
 
 O comando executado para realizar cada consulta.
@@ -147,6 +152,7 @@ Você deve fazer as seguintes consultas na coleção `restaurants`:
 1. Restaurantes com pontuação (`"score"`, dentro de `"grades"`) **maior que** 30
 1. Restaurantes com pontuação (`"score"`, dentro de `"grades"`) **menor que** 10
 1. Restaurantes com culinária (`"cuisine"`) italiana (`"Italian"`), com CEP `"10075"`
+<!-- -db.restaurants.find({"cuisine":"Italian","address.zipcode":"10075"}).count()-->
 1. Restaurantes com culinária (`"cuisine"`) italiana (`"Italian"`) **OU** com CEP `"10075"`
 1. Mesmo que 4.3, porém ordenado por bairro (`"borough"`)
 
