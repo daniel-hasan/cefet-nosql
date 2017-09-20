@@ -36,7 +36,7 @@ Você deve entregar, no Moodle, um documento `.pdf` contendo os entregáveis de
 cada um dos exercícios abaixo. Você pode usar um editor de texto como o Word ou
 Writer.
 
-**Não copie seu exercício de outra pessoa!!** Plágio não será tolerado e, caso identificado, o grupo (**quem forneceu e quem utilizou**) terá toda a prática **zerada**.
+**Não copie seu exercício de outra pessoa!!** Plágio não será tolerado e, caso identificado, **quem forneceu e quem utilizou** terá toda a prática **zerada**.
 ---
 ## Exercício 1: Índices
 
@@ -95,7 +95,7 @@ seguintes consultas:
       }
     });
     // solução correta:
-    // semântica: um restaurante deve conter, ao mesmo tempo, ao menos uma nota
+    // semântica: um restaurante deve coxnter, ao mesmo tempo, ao menos uma nota
     // que esteja >= 80 e <= 100
     db.restaurants.find({
       borough: 'Manhattan',
