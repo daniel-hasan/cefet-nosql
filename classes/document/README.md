@@ -543,7 +543,7 @@ r.table('tv_shows')
   db.friends.createIndex({ profession: 1 });
   ```
 
----
+<!---
 ## Plano de Execução ([referência](http://docs.mongodb.org/manual/reference/explain-results/))
 
 - Para **ver um índice em ação**, podemos pedir ao MongoDB para **mostrar
@@ -553,7 +553,7 @@ r.table('tv_shows')
   ```
 ![](../../images/mongodb-queryplan1.png)
 ![](../../images/mongodb-queryplan2.png)
-
+-->
 ---
 <!--
   backdrop: emphatic
@@ -678,5 +678,8 @@ r.table('tv_shows')
 # Referências
 
 - Livro _"NoSQL Distilled"_
-  - Capítulo 8: _Document Stores_
-- [Manual do MongoDB](http://docs.mongodb.org/manual/core/) (3.0)
+  - Capítulo 9: _Document Stores_
+- [Manual do MongoDB](https://docs.mongodb.com/) (3.4)
+  - [Indices](https://docs.mongodb.com/manual/indexes/index.html)
+  - [Réplicas](https://docs.mongodb.com/manual/replication/index.html)
+  - [Sharding](https://docs.mongodb.com/manual/sharding/)
