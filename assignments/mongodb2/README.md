@@ -56,7 +56,7 @@ Você deve entregar:
   <!-- db.restaurants.find({ borough: 'Manhattan' }).explain(true); -->
 1. O comando para criar o índice
 
-  <!-- db.restaurants.createIndex('borough'); -->
+  <!-- db.restaurants.createIndex({'borough':1}); -->
 1. O tempo gasto para executar a consulta **depois de criar** o índice
 
   <!-- db.restaurants.find({ borough: 'Manhattan' }).explain(true); -->
