@@ -84,8 +84,14 @@ _Slides:_ Prof. Flávio Coutinho
     - A escolha deve ser feita **até 20/09**. Caso não seja feito o aluno perderá 15% dos pontos
 - 5 consultas utilizando [MongoDB e MapReduce](mapreduce) (10 pontos, entrega até 06/10)
   - Entregar em um PDF, a consulta e o propósito da mesma. Plágio não será tolerado e, caso identificado, o aluno (**que forneceu e que utilizou**) terá o exercício **zerado**.
+  [seminar]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/seminar/README.md
+  [tp]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/tp/README.md
+  [mapreduce]: https://docs.mongodb.com/manual/core/map-reduce/
+---
+## Datas Importantes - Tarefa Extra
+- Você deverá propor um sistema (a) usando nosql (ex. mongodb) e usando banco de dados relacional (ex: mysql), possuindo:
+  - (a) Descrição do sistema
+  - (b) O modelo de entidades relacionamento correspondente (ao modelar em um banco relacional) e exemplo de agregado (ao modelar em um banco NoSQL).
+  - (c) Você deverá propor 5 consultas e mostrá-las tanto usando mongodb quanto usando um banco de dados relacional.
 
-
-[seminar]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/seminar/README.md
-[tp]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/tp/README.md
-[mapreduce]: https://docs.mongodb.com/manual/core/map-reduce/
+  Só será considerado trabalho completo. Caso ocorra plágio, tanto a pessoa que forneceu quanto quem copiou não terão seus trabalhos considerados. Entregar em pdf até dia 6/10 (tolerancia de 6h). Não será aceito após essa data.
