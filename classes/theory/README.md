@@ -686,6 +686,7 @@ _"Bancos relacionais são ACID, logo não preciso me preocupar com consistência
 [scatter-gather]: http://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html
 
 -->
+
 ---
 ## **_Map-Reduce_**
 

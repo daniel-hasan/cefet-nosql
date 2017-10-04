@@ -82,11 +82,11 @@ _Slides:_ Prof. Flávio Coutinho
 - [Seminário][seminar] (40 pontos, 27/09/2017)
   - **ordem dos trabalhos/tema e grupo**: Devem ser escolhidos com antecedência [por meio deste link](https://goo.gl/5Q4idT)
     - A escolha deve ser feita **até 20/09**. Caso não seja feito o aluno perderá 15% dos pontos
-- 5 consultas utilizando [MongoDB e MapReduce](mapreduce) (10 pontos, entrega até 06/10)
+- 5 consultas utilizando MongoDB e MapReduce (10 pontos, entrega até 06/10)
   - Entregar em um PDF, a consulta e o propósito da mesma. Plágio não será tolerado e, caso identificado, o aluno (**que forneceu e que utilizou**) terá o exercício **zerado**.
   [seminar]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/seminar/README.md
   [tp]: https://github.com/daniel-hasan/cefet-nosql/tree/master/assignments/tp/README.md
-  [mapreduce]: https://docs.mongodb.com/manual/core/map-reduce/
+  [mapreduce]:https://docs.mongodb.com/manual/core/map-reduce/
 ---
 ## Datas Importantes - Tarefa Extra
 - Você deverá propor um sistema (a) usando nosql (ex. mongodb) e usando banco de dados relacional (ex: mysql), possuindo:
