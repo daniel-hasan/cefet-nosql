@@ -62,7 +62,7 @@ Você deve entregar:
   <!-- db.restaurants.find({ borough: 'Manhattan' }).explain(true); -->
 
 ---
-## Exercício 2: **Consultas**
+## Exercício 2: **Outras Consultas**
 
 Considerando o mesmo _dataset_ do primeiro exercício, construa as
 seguintes consultas:
@@ -111,7 +111,7 @@ seguintes consultas:
   -->
 1. Restaurantes cuja latitude é menor que -95.754168.
 
-  <!-- db.restaurants.find({ 'address.coords.0': { $lt: -95.754168 } }); -->
+  <!-- db.restaurants.find({ 'address.coord.0': { $lt: -95.754168 } }); -->
 1. Restaurantes que não preparam culinária (_cuisine_) `"American "`.
   - Repare que o _dataset_ possui um erro e a culinária `"American "` tem um
     caracter de espaço no final
