@@ -10,8 +10,8 @@ bibliográfica e apresentarão um curto seminário no nosso último dia de aula.
 
 - O trabalho deve ser feito inteiramente pelo aluno ou pelo grupo
 - As apresentações dos trabalhos serão de 10 a 15 minutos, todas na mesma data
-- **ordem dos trabalhos/tema e grupo**: Devem ser escolhidos com antecedência [por meio deste link](https://goo.gl/5Q4idT)
-  - A escolha deve ser feita até 18/09. Caso não seja feito o aluno/grupo perderá 15% dos pontos
+- **ordem dos trabalhos/tema e grupo**: Devem ser escolhidos com antecedência [por meio deste link](https://goo.gl/psxUcX)
+  - A escolha deve ser feita até 11/04. Caso não seja feito o aluno/grupo perderá 15% dos pontos
 - Se optar por apresentar usando _slides_, sugiro limitar a 10-15 _slides_
 
 

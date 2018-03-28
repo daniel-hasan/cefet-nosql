@@ -72,8 +72,8 @@
   materializadas por ele mesmo
   - Nós provemos qual a computação para gerar e o banco a executa
     apenas quando necessário **(_Map-Reduce_ Incremental)**
-
 --->
+---
 <!--
   backdrop: chapter
 -->
@@ -131,7 +131,8 @@
   é fácil (e barato) consultar e.g. "todos os pedidos que incluem o produtos X"
 - Desvantagem: sempre que um cliente tem mais um pedido, temos que adicionar esta
 referencia dentro do cliente
----
+
+<!--
 ## Modelando: **_column-family_**
 
 - Há várias formas - a regra geral é **tornar a consulta fácil e barata**,
@@ -140,7 +141,7 @@ referencia dentro do cliente
   consulta e não do ponto de vista de armazenamento**
 - Devemos usar do fato de que colunas são ordenadas e famílias de colunas
   são recuperadas juntas pelo banco de dados
-
+-->
 ---
 ## Modelando **_column-family_**
 

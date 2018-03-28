@@ -15,7 +15,7 @@ _Slides:_ Prof. Flávio Coutinho
     - 18:50 - 20:30: [Introdução a NoSQL](classes/intro/)
     - 20:50 - 22:30: [Teoria (Distribuição, CAP, _Map-Reduce_) (1ª parte)](classes/theory/)
   - Aula 2 (04/04/2018):
-    - 18:50 - 20:30: [Teoria (Distribuição, CAP, _Map-Reduce_) (2ª parte) ](classes/theory/#25)
+    - 18:50 - 20:30: [Teoria (Distribuição, CAP, _Map-Reduce_) (2ª parte) ](classes/theory/#23)
     - 20:50 - 22:30: [_Document Stores_](classes/document/)
   - Aula 3: (11/04/2018)
     - 18:50 - 20:30: _Document Stores_([restim](classes/document/#47))

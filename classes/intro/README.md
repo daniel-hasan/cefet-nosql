@@ -505,14 +505,16 @@ relacionados que queremos **tratar de forma unitária**</p>
   _rows_
 
 ---
-<!--
-  backdrop: white
--->
+## Exemplo de _Rows_
 
-![](../../images/columnfamily-book-example.png)
-```js
-get('1234', 'name');
-```
+- _Rows_ de artista e banda:
+  - As chaves das colunas (_column keys_) são sempre ordenadas
+
+![](../../images/cassandra-rows-artists.png)
+
+- Uma _row_ pode ser recuperada se conhecermos sua _row key_
+- Um _column value_ pode ser recuperado se conhecermos sua
+  _row key_ e _column key_
 
 ---
 ## Tipo: **_Graph_**
