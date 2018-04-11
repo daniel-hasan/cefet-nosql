@@ -110,7 +110,7 @@ Insira o seguinte documento na coleção `restaurants`:
     {
       "date" : ISODate("2014-01-16T00:00:00Z"),
       "grade" : "B",
-      "score" : 17
+      "score" : 12
      }
   ],
   "name" : "Vella",
@@ -119,10 +119,10 @@ Insira o seguinte documento na coleção `restaurants`:
 ```
 
 ### Entrega
+Tire uma _screenshot_ (`exercicio2.png`) mostrando que a importação foi
+realizada com sucesso e o tempo que o processo levou.
 
-Um **PDF** pelo moodle. Para cada consulta, o comando que foi executado para inserir o documento **e também** um comando
-e seu resultado (_screenshot_ ou texto _output_) para mostrar quantos
-documentos agora fazem parte da coleção `restaurants`.
+
 
 ---
 ## Exercício 3: Diversas **consultas simples**
@@ -142,20 +142,19 @@ Você deve fazer as seguintes consultas na coleção `restaurants`:
                     {"name":1,"_id":0}) -->
 ### Entrega
 
-O comando executado para realizar cada consulta.
+Para cada consulta,  _screenshot_ com o comando que foi executado para consulta e o seu resultado.
 
 ---
 ## Exercício 4: Diversas **consultas com operadores**
 
 Você deve fazer as seguintes consultas na coleção `restaurants`:
 
-1. Restaurantes com pontuação (`"score"`, dentro de `"grades"`) **maior que** 30
-1. Restaurantes com pontuação (`"score"`, dentro de `"grades"`) **menor que** 10
+1. Restaurantes com pontuação (`"score"`, dentro de `"grades"`) **maior que** 29
+1. Restaurantes com pontuação (`"score"`, dentro de `"grades"`) **menor que** 9
 1. Restaurantes com culinária (`"cuisine"`) italiana (`"Italian"`), com CEP `"10075"`
 <!-- -db.restaurants.find({"cuisine":"Italian","address.zipcode":"10075"}).count()-->
 1. Restaurantes com culinária (`"cuisine"`) italiana (`"Italian"`) **OU** com CEP `"10075"`
 1. Mesmo que 4.3, porém ordenado por bairro (`"borough"`)
 
 ### Entrega
-
-O comando executado para realizar cada consulta.
+Para cada consulta,  _screenshot_ com o comando que foi executado para consulta e o seu resultado.
